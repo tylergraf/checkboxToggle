@@ -1,0 +1,30 @@
+<html>
+<head>
+</head>
+<body>
+  <h1>test</h1>
+
+  <style>
+    .hide {
+      display: none;
+    }
+  </style>
+  <div>
+    <input type="checkbox" id="privateComputer">
+    <label for="">Things</label>
+    <p class="why-text hide">stuff and things</p>
+  </div>
+
+  <script src="build/build.js"></script>
+  <script> 
+    var toggleCheckbox = require('checkboxToggleEl');
+
+    var checkbox = document.querySelector('#privateComputer');
+    var toggleEl = document.querySelector('.why-text');
+    
+    toggleCheckbox(checkbox, toggleEl);
+    
+  </script>
+
+</body>
+</html>
