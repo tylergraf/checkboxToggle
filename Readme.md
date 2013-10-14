@@ -1,11 +1,11 @@
 
-# checkboxToggleEl
+# checkboxToggle
 
-  toggles div when checkbox is clicked.
+  toggles element when checkbox is clicked.
 
 ## Installation
 
-    $ component install tylergraf/checkboxToggleEl
+    $ component install tylergraf/checkboxToggle
 
 ## API
 

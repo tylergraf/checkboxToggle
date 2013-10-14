@@ -12,7 +12,7 @@
 var events = require("event"); 
 var classes = require('classes');
 
-module.exports = function checkboxToggleEl(checkbox, toggleEl){
+module.exports = function checkboxToggle(checkbox, toggleEl){
 
   events.bind(checkbox, 'change', function() {
     classes(toggleEl)

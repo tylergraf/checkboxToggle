@@ -1,6 +1,6 @@
 {
-  "name": "checkboxToggleEl",
-  "repo": "tylergraf/checkboxToggleEl",
+  "name": "checkboxToggle",
+  "repo": "tylergraf/checkboxToggle",
   "description": "toggles element when checkbox is checked.",
   "version": "0.0.1",
   "keywords": [],
